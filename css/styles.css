@@ -1,0 +1,17 @@
+/* File created by: Dania Tomas Iannarone, 2022 */
+#div1 {
+    height: 40%;
+	width: 80%;
+	padding: 10px;
+    margin: 0 auto;
+	background-color: cornflowerblue;
+    border-style: dotted;
+	border-width: 5px;
+    border-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#mapdiv {
+	height: 400px;
+	width: 100%;
+}
