@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  <!-- Q1) DANIA TOMAS IANNARONE, 2022-->
 <html lang="en">
     <head>
+        <!-- link to data -->
+        <script type="text/javascript" src="data/megacities.js"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>lab9</title>
@@ -8,16 +10,30 @@
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/styles.css">
         
-		<!--you can also place internal styles here; you would place these within <style> tags-->
-    </head>
+        <!-- link to leaflet styles -->
+        <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+        <!-- link to leaflet scripts -->
+        <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
 
+		<!--you can also place internal styles here; you would place these within <style> tags-->
+        <!-- Q2) Because it is read from top to bottom and whatever is at the end will shown -->
+    </head>
     <body>
         <!--put your initial page content here-->
-		
+		<div id="div1">
+            This is inside basic html container
+            <p>This is text contained inside of a standard easily-stylable tag</p>  <!-- Q2) Because it is read from top to bottom and whatever is at the end will shown -->
+            <p>Q3) .onload runs the JS script once the files have been loaded, it is good because it waits for the files in the script to load and therefor will not give error or will tell you something is missing.</p>
+            <p>Q4) cityPop is a variabe that is storing different elements, in this case cities (a string) and population (an integer), its like a dictionary.</p>
+            <p>Dania Tomas Iannarone</p>
+        </div>
+        <div id="mapdiv">
+            
+        </div>
         <!--you can also use this space for internal scripts; you would place these within <script> tags-->
 
         <!--put your external script links here-->
         <script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="data/megacities.js"></script>
+		<!--<script type="text/javascript" src="data/megacities.js"></script>-->
     </body>
 </html>
